@@ -24,16 +24,8 @@ session = Session(engine)
 #set up flask
 app = Flask(__name__)
 
-#import app
 
-#print("example __name__ = %s", __name__)
-
-#if __name__ == "__main__":
- #   print("example is being run directly.")
-#else:
- #   print("example is being imported")
-
-#Define root
+#Define routes
 @app.route("/")
 def welcome():
     return(
@@ -44,8 +36,7 @@ def welcome():
     /api/v1.0/stations
     /api/v1.0/tobs
     /api/v1.0/temp/start/end
-    '''
-    )
+    ''')
 
 @app.route("/api/v1.0/precipitation")
 def precipitation():
@@ -86,3 +77,7 @@ def stats(start=None, end=None):
         filter(Measurement.date <= end).all()
     temps = list(np.ravel(results))
     return jsonify(temps=temps)
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
