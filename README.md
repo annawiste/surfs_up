@@ -23,6 +23,9 @@ The available database contains temperature observations in Oahu from June 2010-
 ## Summary
 
 Oahu is somewhat warmer in June compared to December, with an average temperature of 75 compared to 71. There is also a little bit more variability in December compared to June, reflected in the larger standard deviation. This appears to be driven by some substantially lower temperatures in December, given there is such a large difference in the minimum temperature.
+
 The data included here do cover 8 and 7 years for June and December, respectively. It would be useful to look at this information across the years to see if there have been any trends across the different years. Climate change could have caused an overall warming trend, with the most recent temperatures being warmer than earlier ones. 
+
 Precipitation data is also available. When it comes to eating ice cream, even with warmer temperatures rain is likely to discourage individuals from making purchases. I would look at the average cumulative precipitation for each month.
+
 The temperature observations wouldn't discourage an investment in an ice cream shop on Oahu. It looks as though there is a consistent pleasant temperature throughout the year.
